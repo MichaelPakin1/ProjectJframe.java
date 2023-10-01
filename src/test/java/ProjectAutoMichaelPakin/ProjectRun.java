@@ -228,17 +228,6 @@ By bannerNumber0 = By.className("clickableImages");
         Test29 = exm.createTest("Enter-Test29","כפתור כניסה ");
         Test30 = exm.createTest("Enter-Test30","בדיקת ערכים בשדה לוגין");
 
-        // problemnie testi
-        // 1 - Enter 27+ - proveriti chto ne tak - problema v perehode na stranizy
-        // 2 site
-        // test 10 | 12| 14 | 15 | 17 |
-
-
-        // proitisi po vsem testam proveriti
-        // udaliti url is open na vseh testah
-        // test 9 faild - pochemy + done pochemy ne poyavilsya
-        // otpraviti ychitelu
-
 
 
 
@@ -257,7 +246,7 @@ By bannerNumber0 = By.className("clickableImages");
 
 
 
-    @BeforeGroups(groups = "Site") ///////// --------- po ymy gruppi ---------------------
+    @BeforeGroups(groups = "Site")
     static public void beforeGroupsSite() {
         pjf.label1.setText("Group Test Site - Run ");
         String selectBrowser = "Google Chrome";
