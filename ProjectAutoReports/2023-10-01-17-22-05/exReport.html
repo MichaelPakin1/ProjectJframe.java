@@ -1,0 +1,1868 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>QAV automation report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@83e4e8776725a49f9e738b19d1e718e7404d6c19/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Regression cycle</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 1, 2023 05:22:08 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">navigator-Test10</p>
+            <p class="text-sm"><span>17:22:08 PM</span> / <span>46.737 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">navigator-Test10</h5>
+<span class='badge badge-success'>10.01.2023 17:22:08</span>
+<span class='badge badge-danger'>10.01.2023 17:22:55</span>
+<span class='badge badge-default'>46.737 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת ניווט באתר</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:09 PM</td>
+        <td>
+          בדיקת כפתורי ניווט 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:15 PM</td>
+        <td>
+          חדשות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:20 PM</td>
+        <td>
+          פרסומים ומידע נוסף
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:26 PM</td>
+        <td>
+          שירותים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:32 PM</td>
+        <td>
+          נושאים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:37 PM</td>
+        <td>
+          מידע שימושי
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:43 PM</td>
+        <td>
+          אודות המשרד
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:49 PM</td>
+        <td>
+          יחידות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          ריכזנו את המידע עבורכם
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:55 PM</td>
+        <td>
+          ניווט עובד תקין 
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">navigator-Test11</p>
+            <p class="text-sm"><span>17:22:08 PM</span> / <span>50.296 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
+<h5 class="test-status text-pass">navigator-Test11</h5>
+<span class='badge badge-success'>10.01.2023 17:22:08</span>
+<span class='badge badge-danger'>10.01.2023 17:22:58</span>
+<span class='badge badge-default'>50.296 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת נכונות ניווט</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:55 PM</td>
+        <td>
+           בדיקת ניווט  - חדשות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:55 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172255.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172255.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:55 PM</td>
+        <td>
+           בדיקת ניווט  - פרסומים ומידע נוסף
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:55 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172255.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172255.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:56 PM</td>
+        <td>
+           בדיקת ניווט  - שירותים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:56 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172256.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172256.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:56 PM</td>
+        <td>
+           בדיקת ניווט  - נושאים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:56 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172256.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172256.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:57 PM</td>
+        <td>
+           בדיקת ניווט  - מידע שימושי
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:57 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:57 PM</td>
+        <td>
+           בדיקת ניווט  - אודות המשרד
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:57 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:57 PM</td>
+        <td>
+           בדיקת ניווט  - יחידות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172257.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+           בדיקת ניווט  - ריכזנו את המידע עבורכם
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172258.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172258.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+          בדיקת ניווט - תקין
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">navigator-Test12</p>
+            <p class="text-sm"><span>17:22:08 PM</span> / <span>68.864 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
+<h5 class="test-status text-pass">navigator-Test12</h5>
+<span class='badge badge-success'>10.01.2023 17:22:08</span>
+<span class='badge badge-danger'>10.01.2023 17:23:17</span>
+<span class='badge badge-default'>68.864 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת לינקים של ניווט</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+          פתיחת לינקים רנדומלית 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:17 PM</td>
+        <td>
+          לינקים תקינים
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Links-Test13</p>
+            <p class="text-sm"><span>17:23:39 PM</span> / <span>20.361 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">Links-Test13</h5>
+<span class='badge badge-success'>10.01.2023 17:23:39</span>
+<span class='badge badge-danger'>10.01.2023 17:23:59</span>
+<span class='badge badge-default'>20.361 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת לינקים של אתר</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:39 PM</td>
+        <td>
+          פתיחה וסגירה של קישורים באתר
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:59 PM</td>
+        <td>
+          לינקים עובדים תקין
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">banner-Test14</p>
+            <p class="text-sm"><span>17:24:17 PM</span> / <span>3.031 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-pass">banner-Test14</h5>
+<span class='badge badge-success'>10.01.2023 17:24:17</span>
+<span class='badge badge-danger'>10.01.2023 17:24:20</span>
+<span class='badge badge-default'>3.031 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת באנר ראשון</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:18 PM</td>
+        <td>
+          בדיקת באנר 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:20 PM</td>
+        <td>
+          בדיקת באנר - תקין
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:20 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172420.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172420.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">banner-Test15</p>
+            <p class="text-sm"><span>17:24:17 PM</span> / <span>5.323 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=6</span></div>
+<h5 class="test-status text-pass">banner-Test15</h5>
+<span class='badge badge-success'>10.01.2023 17:24:17</span>
+<span class='badge badge-danger'>10.01.2023 17:24:22</span>
+<span class='badge badge-default'>5.323 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת החלפת באנר</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:20 PM</td>
+        <td>
+          בדיקת החלפת באנרים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:21 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172421.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172421.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:22 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172421.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172421.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:22 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172422.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172422.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">banner-Test16</p>
+            <p class="text-sm"><span>17:24:17 PM</span> / <span>8.951 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=7</span></div>
+<h5 class="test-status text-pass">banner-Test16</h5>
+<span class='badge badge-success'>10.01.2023 17:24:17</span>
+<span class='badge badge-danger'>10.01.2023 17:24:26</span>
+<span class='badge badge-default'>8.951 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת באנר שני</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:23 PM</td>
+        <td>
+          בדיקת באנר 2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:25 PM</td>
+        <td>
+          בדיקת באנר 2 - תקין
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:26 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172425.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172425.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">banner-Test17</p>
+            <p class="text-sm"><span>17:24:17 PM</span> / <span>26.367 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=8</span></div>
+<h5 class="test-status text-pass">banner-Test17</h5>
+<span class='badge badge-success'>10.01.2023 17:24:17</span>
+<span class='badge badge-danger'>10.01.2023 17:24:43</span>
+<span class='badge badge-default'>26.367 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקה החלפה באנר אוטומטי</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:26 PM</td>
+        <td>
+          בדיקה החלפה אוטומטי באנר 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:35 PM</td>
+        <td>
+          זמן החלפת באנר 1 8.3 sec
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:35 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172435.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172435.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:43 PM</td>
+        <td>
+          זמן החלפת באנר 2 7.2 sec
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:43 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172443.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172443.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:43 PM</td>
+        <td>
+          זמן החלפת באנרים 15.5 sec
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">banner-Test18</p>
+            <p class="text-sm"><span>17:24:17 PM</span> / <span>42.132 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=9</span></div>
+<h5 class="test-status text-pass">banner-Test18</h5>
+<span class='badge badge-success'>10.01.2023 17:24:17</span>
+<span class='badge badge-danger'>10.01.2023 17:24:59</span>
+<span class='badge badge-default'>42.132 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת קישורים חיצוניים</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:24:43 PM</td>
+        <td>
+          בדיקת קישורים חיצוניים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:59 PM</td>
+        <td>
+          בדיקת קישורים חיצוניים - תקין
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:24:59 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172459.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172459.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test19</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>0.9 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=10</span></div>
+<h5 class="test-status text-pass">login-Test19</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:25:17</span>
+<span class='badge badge-default'>0.9 secs</span>
+</div>
+<div class="m-t-10 m-l-5">כניסה לאזור אישי</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:17 PM</td>
+        <td>
+          כניסה לאזור אישי
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test20</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>4.999 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=11</span></div>
+<h5 class="test-status text-pass">login-Test20</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:25:21</span>
+<span class='badge badge-default'>4.999 secs</span>
+</div>
+<div class="m-t-10 m-l-5">כניסה לעמוד הרשמה</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:21 PM</td>
+        <td>
+          כניסה לעמוד הרשמה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:25:21 PM</td>
+        <td>
+          עמוד הרשמה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:25:21 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172521.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172521.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test21</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>5.868 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=12</span></div>
+<h5 class="test-status text-pass">login-Test21</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:25:22</span>
+<span class='badge badge-default'>5.868 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת הרשמה - ללא ערכים</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:22 PM</td>
+        <td>
+          בדיקת הרשמה - ללא ערכים
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:22 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172522.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172522.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:25:22 PM</td>
+        <td>
+          יש הודאת שגיאה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:25:22 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172522.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172522.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test22</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>36.766 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=13</span></div>
+<h5 class="test-status text-pass">login-Test22</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:25:53</span>
+<span class='badge badge-default'>36.766 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת הרשמה - שדות פרטים אישיים</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:53 PM</td>
+        <td>
+          בדיקת הרשמה - שדות פרטים אישיים - עם ערכים בשדות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:53 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172553.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172553.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test23</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>42.992 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=14</span></div>
+<h5 class="test-status text-pass">login-Test23</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:25:59</span>
+<span class='badge badge-default'>42.992 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת הרשמה - הרשמה עם 2 אמצעי זיהוי - זיהוי ראשון</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:59 PM</td>
+        <td>
+          בדיקת הרשמה - הרשמה עם 2 אמצעי זיהוי - זיהוי ראשון - עם ערכים בשדות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:25:59 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172559.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172559.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test24</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>46.946 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=15</span></div>
+<h5 class="test-status text-pass">login-Test24</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:26:03</span>
+<span class='badge badge-default'>46.946 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת הרשמה - הרשמה עם 2 אמצעי זיהוי - זיהוי שני</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:26:03 PM</td>
+        <td>
+          בדיקת הרשמה - הרשמה עם 2 אמצעי זיהוי - זיהוי שני - עם ערכים בשדות
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:26:03 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172603.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172603.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test25</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>53.033 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=16</span></div>
+<h5 class="test-status text-pass">login-Test25</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:26:10</span>
+<span class='badge badge-default'>53.033 secs</span>
+</div>
+<div class="m-t-10 m-l-5">סיסמה</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:26:09 PM</td>
+        <td>
+          בדיקת סיסמה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:26:10 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172609.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172609.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">login-Test26</p>
+            <p class="text-sm"><span>17:25:16 PM</span> / <span>53.638 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=17</span></div>
+<h5 class="test-status text-pass">login-Test26</h5>
+<span class='badge badge-success'>10.01.2023 17:25:16</span>
+<span class='badge badge-danger'>10.01.2023 17:26:10</span>
+<span class='badge badge-default'>53.638 secs</span>
+</div>
+<div class="m-t-10 m-l-5">כפתור הרשמה</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:26:10 PM</td>
+        <td>
+          בדיקת כפתור כניסה - ניתן ללחוץ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:26:10 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172610.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172610.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Enter-Test27</p>
+            <p class="text-sm"><span>17:26:27 PM</span> / <span>4.642 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=18</span></div>
+<h5 class="test-status text-pass">Enter-Test27</h5>
+<span class='badge badge-success'>10.01.2023 17:26:27</span>
+<span class='badge badge-danger'>10.01.2023 17:26:32</span>
+<span class='badge badge-default'>4.642 secs</span>
+</div>
+<div class="m-t-10 m-l-5">עמוד כניסה בדיקת אפשרות שונות כניסה לאזור אישי</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:26:31 PM</td>
+        <td>
+          תקין - עברה לאפשרויות נוספים תקינה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:26:32 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172631.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172631.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Enter-Test28</p>
+            <p class="text-sm"><span>17:26:27 PM</span> / <span>36.391 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=19</span></div>
+<h5 class="test-status text-pass">Enter-Test28</h5>
+<span class='badge badge-success'>10.01.2023 17:26:27</span>
+<span class='badge badge-danger'>10.01.2023 17:27:03</span>
+<span class='badge badge-default'>36.391 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת שדות ת.ז וסיסמה</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:03 PM</td>
+        <td>
+          בדיקת שדה ת.ז  
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:03 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172703.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172703.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Enter-Test29</p>
+            <p class="text-sm"><span>17:26:27 PM</span> / <span>41.475 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=20</span></div>
+<h5 class="test-status text-pass">Enter-Test29</h5>
+<span class='badge badge-success'>10.01.2023 17:26:27</span>
+<span class='badge badge-danger'>10.01.2023 17:27:09</span>
+<span class='badge badge-default'>41.475 secs</span>
+</div>
+<div class="m-t-10 m-l-5">כפתור כניסה </div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:04 PM</td>
+        <td>
+          בדיקת מצבים בו כפתור כניסה מאפשר כניסה
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:27:08 PM</td>
+        <td>
+          כפתור כניסה מגיב תקין 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:27:09 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172708.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172708.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Enter-Test30</p>
+            <p class="text-sm"><span>17:26:27 PM</span> / <span>112.247 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=21</span></div>
+<h5 class="test-status text-pass">Enter-Test30</h5>
+<span class='badge badge-success'>10.01.2023 17:26:27</span>
+<span class='badge badge-danger'>10.01.2023 17:28:19</span>
+<span class='badge badge-default'>112.247 secs</span>
+</div>
+<div class="m-t-10 m-l-5">בדיקת ערכים בשדה לוגין</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:09 PM</td>
+        <td>
+          בדיקת ערכים בשדה לוגין
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:19 PM</td>
+        <td>
+          1 = Enter Test | button is Enabled  | shkilut  = קורונה | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:20 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172719.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172719.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:30 PM</td>
+        <td>
+          2 = Enter Test | button is Enabled  | shkilut  =    | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:30 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172730.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172730.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:40 PM</td>
+        <td>
+          3 = Enter Test | button is Enabled  | shkilut  = ק ו ר ו נ ה | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:41 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172740.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172740.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:51 PM</td>
+        <td>
+          4 = Enter Test | button is Enabled  | shkilut  = !@#$% | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:27:51 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172751.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172751.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:01 PM</td>
+        <td>
+          5 = Enter Test | button is Enabled  | shkilut  = קורונה! | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:02 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172801.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172801.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:02 PM</td>
+        <td>
+          6 = Enter Test | button is Enabled  | shkilut  = קורונה1 | appears in the field = 1| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:02 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172802.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172802.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:03 PM</td>
+        <td>
+          7 = Enter Test | button is Enabled  | shkilut  = 123456789 | appears in the field = 123456789| match  = true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:03 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172803.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172803.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:03 PM</td>
+        <td>
+          8 = Enter Test | button is Enabled  | shkilut  = 4580161501590004 | appears in the field = 458016150| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:03 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172803.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172803.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:04 PM</td>
+        <td>
+          9 = Enter Test | button is Enabled  | shkilut  = ק | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:04 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172804.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172804.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:04 PM</td>
+        <td>
+          10 = Enter Test | button is Enabled  | shkilut  = קו | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:04 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172804.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172804.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:05 PM</td>
+        <td>
+          11 = Enter Test | button is Enabled  | shkilut  = קורונה COVID | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:05 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172805.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172805.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:05 PM</td>
+        <td>
+          12 = Enter Test | button is Enabled  | shkilut  = COVID | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:05 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172805.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172805.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:06 PM</td>
+        <td>
+          13 = Enter Test | button is Enabled  | shkilut  = 1234567890זשסדבגקרכהנעאטימצחוןלתץךםפף | appears in the field = 123456789| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:06 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172806.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172806.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:06 PM</td>
+        <td>
+          14 = Enter Test | button is Enabled  | shkilut  = COVID 1 | appears in the field = 1| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:07 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172806.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172806.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:07 PM</td>
+        <td>
+          15 = Enter Test | button is Enabled  | shkilut  = mp123@tor.net | appears in the field = 123| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:07 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172807.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172807.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:07 PM</td>
+        <td>
+          16 = Enter Test | button is Enabled  | shkilut  = @123.co.il | appears in the field = 123| match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:08 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172807.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172807.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:08 PM</td>
+        <td>
+          17 = Enter Test | button is Enabled  | shkilut  = www.com | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:08 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172808.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172808.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:09 PM</td>
+        <td>
+          18 = Enter Test | button is Enabled  | shkilut  = COVID@COvid | appears in the field = | match  = false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:09 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172809.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172809.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:19 PM</td>
+        <td>
+          19 = Enter Test | button is Enabled  | shkilut  = 111111118 | appears in the field = 111111118| match  = true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:28:19 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172819.jpg' src="C:\Users\97250\Desktop\Automatic_QA\java\ProjectAutoTestMichaelPakin\ProjectAutoReports\2023-10-01-17-22-05/pic01172819.jpg">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 1, 2023 05:22:08 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 1, 2023 05:28:21 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>21</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>21</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='24%'><b>28</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>86</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 21,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 28,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 86
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

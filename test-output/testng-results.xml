@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-01T17:26:26 IDT" name="Command line suite" finished-at="2023-10-01T17:28:23 IDT" duration-ms="117478">
+    <groups>
+      <group name="Enter">
+        <method signature="ProjectRun.Test27()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" name="Test27" class="ProjectAutoMichaelPakin.ProjectRun"/>
+        <method signature="ProjectRun.Test28()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" name="Test28" class="ProjectAutoMichaelPakin.ProjectRun"/>
+        <method signature="ProjectRun.Test29()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" name="Test29" class="ProjectAutoMichaelPakin.ProjectRun"/>
+        <method signature="ProjectRun.Test30()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" name="Test30" class="ProjectAutoMichaelPakin.ProjectRun"/>
+      </group> <!-- Enter -->
+    </groups>
+    <test started-at="2023-10-01T17:26:26 IDT" name="Command line test" finished-at="2023-10-01T17:28:23 IDT" duration-ms="117478">
+      <class name="ProjectAutoMichaelPakin.ProjectRun">
+        <test-method is-config="true" signature="beforeGroupsEnterTest()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:26:26 IDT" name="beforeGroupsEnterTest" finished-at="2023-10-01T17:26:27 IDT" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroupsEnterTest -->
+        <test-method signature="Test27()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:26:27 IDT" name="Test27" finished-at="2023-10-01T17:26:32 IDT" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test27 -->
+        <test-method signature="Test28()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:26:32 IDT" name="Test28" finished-at="2023-10-01T17:27:03 IDT" duration-ms="31749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test28 -->
+        <test-method signature="Test29()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:27:03 IDT" name="Test29" finished-at="2023-10-01T17:27:09 IDT" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test29 -->
+        <test-method signature="Test30()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:27:09 IDT" name="Test30" finished-at="2023-10-01T17:28:19 IDT" duration-ms="70916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test30 -->
+        <test-method is-config="true" signature="afterGroupsEnter()[pri:0, instance:ProjectAutoMichaelPakin.ProjectRun@5737c61d]" started-at="2023-10-01T17:28:19 IDT" name="afterGroupsEnter" finished-at="2023-10-01T17:28:23 IDT" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroupsEnter -->
+      </class> <!-- ProjectAutoMichaelPakin.ProjectRun -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

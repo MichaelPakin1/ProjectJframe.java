@@ -1,0 +1,32 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923}) on port 39620
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1693759262.649][WARNING]: This version of ChromeDriver has not been tested with Chrome version 116.
+Sep 03, 2023 7:41:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 116
+Sep 03, 2023 7:41:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+---------Test 01 - Start ---------
+First link = ???? ??????? - Gov.il
+URL site = https://www.gov.il/he/departments/ministry_of_health/govil-landing-page | Right site = true
+----- Test 01 = OK -----
+---------Test 01 - END ---------
+ 
+---------Test 02 - Start ---------
+Need title - ???? ??????? | Site title - ???? ??????? | Checking right site = true
+----- Test 02 = OK -----
+---------Test 02 - END ---------
+ 
+____
+Done
+message sent successfully
+
+===============================================
+AutoTestMOH
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+

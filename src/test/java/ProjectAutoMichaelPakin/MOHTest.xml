@@ -1,0 +1,31 @@
+<suite name="AutoTestMOH">
+    <test name="Test">
+        <groups>
+            <run>
+<!--                <include  name = "Site"/>-->
+<!--                <include  name = "Language"/>-->
+                <include  name = "SearchTest"/>
+<!--                <include  name = "navigator"/>-->
+<!--                <include  name = "Links"/>-->
+<!--                <include  name = "banner"/>-->
+<!--                <include  name = "login"/>-->
+<!--                <include  name = "Enter"/>-->
+            </run>
+<!--            <run>-->
+<!--                <include  name = "navigator"/>-->
+<!--            </run>-->
+<!--            <run>-->
+<!--                <include  name = "login"/>-->
+<!--            </run>-->
+<!--            <run>-->
+<!--                <include  name = "Enter"/>-->
+<!--            </run>-->
+        </groups>
+        <classes>
+            <class name="ProjectAutoMichaelPakin.ProjectRun"/>
+            <class name="ProjectAutoMichaelPakin.ProjectFun"/>
+            <class name="ProjectAutoMichaelPakin.ProjectPOM"/>
+            <class name="ProjectAutoMichaelPakin.ProjectExtentReports"/>
+        </classes>
+    </test>
+</suite>
